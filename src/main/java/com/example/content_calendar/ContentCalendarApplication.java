@@ -10,10 +10,11 @@ import java.util.Arrays;
 @SpringBootApplication
 public class ContentCalendarApplication {
 
-	public static void main(String[] args) {
-		ConfigurableApplicationContext context = SpringApplication.run(ContentCalendarApplication.class, args);
-		Object restTemplate = (RestTemplate)context.getBean("restTemplate");
-		System.out.println(restTemplate);
-	}
+
+    public static void main(String[] args) {
+        ConfigurableApplicationContext context = SpringApplication.run(ContentCalendarApplication.class, args);
+        //Object restTemplate = (RestTemplate)context.getBean("restTemplate");
+        //System.out.println(restTemplate);
+    }
 
 }
