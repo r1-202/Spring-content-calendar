@@ -8,5 +8,7 @@ CREATE TABLE IF NOT EXISTS Content(
     date_updated TIMESTAMP,
     url VARCHAR(255),
     primary key (id)
-
 );
+
+INSERT INTO Content(title, desc, status, content_type, date_created)
+VALUES('My Spring Data Blog Post',  'A post about spring data', 'IDEA', 'ARTICLE', CURRENT_TIMESTAMP());

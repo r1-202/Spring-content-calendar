@@ -1,4 +1,4 @@
-package com.example.content_calendar.Controller;
+package com.example.content_calendar.controller;
 
 import com.example.content_calendar.model.Content;
 import com.example.content_calendar.repository.ContentCollectionRepository;
@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/content")
