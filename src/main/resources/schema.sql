@@ -8,4 +8,5 @@ CREATE TABLE IF NOT EXISTS Content(
     date_updated TIMESTAMP,
     url VARCHAR(255),
     primary key (id)
+
 );
